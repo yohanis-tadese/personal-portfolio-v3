@@ -29,7 +29,7 @@ const Portfolio = () => {
         >
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://github.com/yohanis-tadese/Internship-placement-system"
+            href="https://github.com/Meseretbolled/Job-portal"
             target="_blank"
           >
             <div>
@@ -63,7 +63,7 @@ const Portfolio = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textBlack duration-300"
-                href="https://github.com/yohanis-tadese/Internship-placement-system"
+                href="https://github.com/Meseretbolled/Job-portal"
                 target="_blank"
               >
                 <TbBrandGithub />
