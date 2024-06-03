@@ -10,21 +10,17 @@ const Education = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Haramaya University, Ethiopia
+        Nativity Girl's School(NGS) Addis Ababa, Ethiopia
       </h3>
       <p className="text-sm mt-1 font-medium text-textroyalBlue">
-        June 2020 - 2024
+        September 2020 - 2021
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1 text-textroyalBlue">
             <FaArrowAltCircleRight />
           </span>
-          <span style={{ fontSize: "15px" }}>
-            A Bachelor of Science in Information Systems (BSIS) involves the
-            study of technology and its application in managing information for
-            businesses and organizations.
-          </span>
+          <span style={{ fontSize: "15px" }}>Natural Science studies</span>
         </li>
       </ul>
 
@@ -39,17 +35,21 @@ const Education = () => {
             <FaArrowAltCircleRight />
           </span>
           <span style={{ fontSize: "15px" }}>
-            Full-Stack Web Application Development (MERN) Stack By Instructors
-            👉{" "}
-            <a
-              href="https://www.udemy.com/user/jonasschmedtmann/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "#2196c0" }}
-            >
-              Jonas Schmedtmann
-            </a>
+            Full-Stack Web Application Development (MERN) Stack and Data science
+            and data analysis analysis.
           </span>
+        </li>
+      </ul>
+
+      <br />
+      <h3 className="flex gap-1 font-medium text-xl font-titleFont">IBM</h3>
+      <p className="text-sm mt-1 font-medium text-textroyalBlue">April-2024</p>
+      <ul className="mt-6 flex flex-col gap-3">
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1 text-textroyalBlue">
+            <FaArrowAltCircleRight />
+          </span>
+          <span style={{ fontSize: "15px" }}>Web-fundamentals</span>
         </li>
       </ul>
     </motion.div>

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Skill from "./resumeComponent/Skill";
 import Project from "./resumeComponent/Project";
-import Experience from "./resumeComponent/Experience";
 import Education from "./resumeComponent/Education";
 import Interest from "./resumeComponent/Interest";
 import SectionTitle from "../SectionTitle";
@@ -66,16 +65,7 @@ const Resume = () => {
           >
             Education
           </li>
-          <li
-            onClick={handleExperience}
-            className={`${
-              workExperience
-                ? "border-l-textroyalBlue text-textroyalBlue"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#DEFFFE] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Experience
-          </li>
+
           <li
             onClick={handleProject}
             className={`${

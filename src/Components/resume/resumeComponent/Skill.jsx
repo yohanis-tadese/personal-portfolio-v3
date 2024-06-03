@@ -19,29 +19,26 @@ const Skill = () => {
             <FaArrowAltCircleRight />
           </span>
           <span className="text-textroyalBlue"> Frontend:</span> HTML | CSS |
-          JavaScript | React | ECMAScript (ES6+) | Tailwind CSS | Bootstrap |
-          SCSS
+          JavaScript
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1 text-textroyalBlue">
             <FaArrowAltCircleRight />
           </span>
-          <span className="text-textroyalBlue"> Backend:</span> Node.js |
-          Express.js | REST API
+          <span className="text-textroyalBlue"> Backend:</span> PHP | Python
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1 text-textroyalBlue">
             <FaArrowAltCircleRight />
           </span>
-          <span className="text-textroyalBlue">Database</span> MongoDB | MySQL |
-          SQL
+          <span className="text-textroyalBlue">Database</span> MySQL | SQL
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1 text-textroyalBlue">
             <FaArrowAltCircleRight />
           </span>
           <span className="text-textroyalBlue"> Tools & Deployment:</span> Figma
-          | Git | Vercel | AWS | Heroku
+          | Git | AWS
         </li>
       </ul>
     </motion.div>
