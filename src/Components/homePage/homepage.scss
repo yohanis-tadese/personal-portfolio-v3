@@ -1,0 +1,119 @@
+@import "../../responsive.scss";
+
+.homepage {
+  display: flex;
+  z-index: 1800;
+  height: auto;
+
+  .left-side {
+    background-image: url("../../assets/core-image/hero-top.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f8fd;
+    border-bottom: 3px solid #f5f8fd;
+    gap: 10px;
+    flex: 2.4;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 8%;
+    margin-top: 65px;
+
+    @include md {
+      padding-left: 15px;
+      gap: 6px;
+    }
+
+    span {
+      font-size: 18px;
+    }
+
+    h4 {
+      font-size: 2.8em;
+      color: #222222;
+      font-weight: 700;
+      font-family: var(--font-base4);
+
+      @include md {
+        font-size: 32px;
+      }
+    }
+    h3 {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 32px;
+      width: 62%;
+
+      @include lg {
+        font-size: 16px;
+        line-height: 28px;
+        width: 80%;
+      }
+
+      @include md {
+        font-size: 16px;
+        line-height: 28px;
+        width: 85%;
+      }
+
+      @include sm {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+      }
+    }
+
+    .buttons {
+      @include md {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin: 10px auto;
+      }
+      .btn {
+        padding: 14px 56px;
+        font-size: 15px;
+        margin-top: 20px;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 2px;
+
+        cursor: pointer;
+
+        @include md {
+          font-size: 17px;
+          padding: 12px 42px;
+        }
+      }
+      .button-one {
+        margin-right: 20px;
+        background-color: #0794c9;
+        font-family: var(--font-base5);
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 4px;
+
+        &:hover {
+          background-color: #55c1e8;
+        }
+
+        @include md {
+          margin: 0;
+        }
+      }
+
+      .button-two {
+        background-color: #2f3450;
+        font-family: var(--font-base5);
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 4px;
+
+        &:hover {
+          background-color: #3d415c;
+        }
+      }
+    }
+  }
+}

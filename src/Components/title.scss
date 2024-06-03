@@ -1,0 +1,19 @@
+@import "../responsive.scss";
+
+.title-of-any {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #0794c9;
+  padding-bottom: 10px;
+  span {
+    background-color: #0794c9;
+  }
+
+  @include sm {
+    font-size: 17px;
+    margin-left: -30px;
+    text-transform: uppercase;
+  }
+}

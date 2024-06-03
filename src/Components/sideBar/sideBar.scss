@@ -1,0 +1,49 @@
+@import "../../responsive.scss";
+
+.sideBar {
+  position: fixed;
+  width: 4%;
+  height: 100vh;
+  z-index: 2000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  @include lg {
+    width: 5%;
+  }
+
+  @include md {
+    display: none;
+  }
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 42vh;
+
+    li {
+      font-size: 14px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      border: 1px solid #9ed9ef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+
+      &:hover {
+        background-color: #2196c0;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
