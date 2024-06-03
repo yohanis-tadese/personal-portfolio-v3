@@ -97,7 +97,9 @@ const Portfolio = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
             <div>
-              <h3 className="text-2xl font-bold">Traveler pack easily</h3>
+              <h3 className="text-2xl font-bold">
+                Cafteria management system new
+              </h3>
             </div>
             <p
               style={{ color: "#fff" }}
