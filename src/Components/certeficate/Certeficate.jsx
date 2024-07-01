@@ -6,6 +6,7 @@ import CerteficateThree from "../../assets/certeficate-3.jpg";
 import CerteficateFour from "../../assets/certeficate-4.jpg";
 import CerteficateFive from "../../assets/certeficate-5.jpg";
 import CerteficateSix from "../../assets/certeficate-6.jpg";
+import CerteficateSeven from "../../assets/certeficate-7.jpg";
 
 const cardClasses = "w-80 bg-white dark:bg-zinc-900 p-4 rounded-lg shadow-lg";
 const containerClasses =
@@ -29,6 +30,7 @@ const Certeficate = () => {
         <CertificateCard src={CerteficateFour} />
         <CertificateCard src={CerteficateFive} />
         <CertificateCard src={CerteficateSix} />
+        <CertificateCard src={CerteficateSeven} />
       </div>
     </div>
   );
