@@ -12,6 +12,17 @@ function Service() {
       </div>
 
       <div className="service-container">
+         <div className="service-box">
+          <span>
+            <FaCartShopping />
+          </span>
+          <div className="service-box-details">
+            <h3>Data Analysis Specialist</h3>
+            <p>
+              I am responsible for cleaning and organizing large datasets, identifying patterns and trends, and creating visualizations and reports to communicate their findings
+            </p>
+          </div>
+        </div>
         <div className="service-box">
           <span>
             <FiLayers />
@@ -65,20 +76,7 @@ function Service() {
             </p>
           </div>
         </div>
-        <div className="service-box">
-          <span>
-            <FaCartShopping />
-          </span>
-          <div className="service-box-details">
-            <h3>E-Commerce Platform Development</h3>
-            <p>
-              I specialize in developing custom e-commerce platforms tailored to
-              your business needs, providing a seamless shopping experience for
-              your customers.
-            </p>
-          </div>
-        </div>
-        <div className="service-box">
+               <div className="service-box">
           <span>
             <FaClock />
           </span>
