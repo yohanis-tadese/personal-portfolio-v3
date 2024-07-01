@@ -47,10 +47,7 @@ function Homepage() {
           <TypingSVG />
         </h4>
         <h3>
-          I'm a passionate and dedicated Full-Stack Software Developer driven by
-          a passion for crafting impactful digital solutions and also Big data
-          with machine learning. My strength lies in creating user-friendly
-          interfaces and robust backend systems that elevate the user experienc
+          I'm a passionate and dedicated data analysis driven by a passion for crafting impactful digital solutions and also Big data with machine learning. My strength lies in creating user-friendly interfaces and robust backend systems  of big data that elevate the user experience
         </h3>
 
         <div className="buttons">
