@@ -37,12 +37,7 @@ const Education = () => {
           <span style={{ fontSize: "15px" }}>
            Data Science and Data analytics for beginner 
           </span>
-          <span style={{ fontSize: "15px" }}>
-          Data structures and Algorithms 
-          </span>
-          <span style={{ fontSize: "15px" }}>
-          C++ and Phyton Programming language. 
-          </span>
+        
         </li>
            <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1 text-textroyalBlue">
@@ -59,7 +54,7 @@ const Education = () => {
           </span>
       
           <span style={{ fontSize: "15px" }}>
-          C++ and Phyton Programming language. 
+          C and Phyton Programming language. 
           </span>
         </li>
       </ul>
