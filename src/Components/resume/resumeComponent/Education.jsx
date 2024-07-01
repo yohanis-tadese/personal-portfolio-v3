@@ -13,7 +13,7 @@ const Education = () => {
         Nativity Girl's School(NGS) Addis Ababa, Ethiopia
       </h3>
       <p className="text-sm mt-1 font-medium text-textroyalBlue">
-        September 2020 - 2021
+        September 2019 - 2021
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
