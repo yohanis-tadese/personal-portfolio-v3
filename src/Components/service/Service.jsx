@@ -1,6 +1,5 @@
 import "./service.scss";
 import { FaMobileAlt, FaCode, FaSearch, FaClock, FaChartBar } from "react-icons/fa";
-import { FaChartBar } from "react-icons/fa6";
 import { FiLayers } from "react-icons/fi";
 import SectionTitle from "../SectionTitle";
 
