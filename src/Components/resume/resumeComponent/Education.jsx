@@ -44,6 +44,24 @@ const Education = () => {
           C++ and Phyton Programming language. 
           </span>
         </li>
+           <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1 text-textroyalBlue">
+            <FaArrowAltCircleRight />
+       </span>
+          <span style={{ fontSize: "15px" }}>
+          Data structures and Algorithms 
+          </span>
+         
+        </li>
+                <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1 text-textroyalBlue">
+            <FaArrowAltCircleRight />
+          </span>
+      
+          <span style={{ fontSize: "15px" }}>
+          C++ and Phyton Programming language. 
+          </span>
+        </li>
       </ul>
 
       <br />
