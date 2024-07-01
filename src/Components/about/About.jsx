@@ -22,26 +22,27 @@ function About() {
         <div className="about-detail">
           <h3>Full Stack (MERN) Developer </h3>
           <span>
-            Hello! I'm Meseret Bolled and I'm passionate about bringing ideas to
-            life on the internet. My expertise lies in crafting robust and
-            dynamic web applications tailored to meet diverse client needs. With
-            a keen eye for detail and a passion for innovation, I excel in
-            leveraging the latest tools and techniques in web development, data
-            analytics, and machine learning to deliver high-quality solutions.
+            Hello! I'm Meseret Bolled and I'm a passionate and dedicated data analysis driven by a passion for crafting impactful digital solutions and also Big data with machine learning. My strength lies in creating user-friendly interfaces and robust backend systems  of big data that elevate the user experience
           </span>
           <ul>
             <h4>Here are a Few Highlights:</h4>
-            <li>
+                <li>
               <span>
                 <FaArrowAltCircleRight />
               </span>
-              <i>Data Analyst and Machine Learning Specialist</i>
+              <i>Passionate about Data Analyst and Machine Learning</i>
             </li>
             <li>
               <span>
                 <FaArrowAltCircleRight />
               </span>
               <i>Full Stack web application developer.</i>
+            </li>
+            <li>
+              <span>
+                <FaArrowAltCircleRight />
+              </span>
+              <i>Python programmer</i>
             </li>
             <li>
               <span>
