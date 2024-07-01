@@ -14,8 +14,8 @@ function Service() {
       <div className="service-container">
          <div className="service-box">
           <span>
-  <FaChartBar />
-</span>
+              <FaChartBar />
+          </span>
 
           <div className="service-box-details">
             <h3>Data analysing</h3>
