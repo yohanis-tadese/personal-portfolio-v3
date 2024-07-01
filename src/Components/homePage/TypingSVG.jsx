@@ -17,7 +17,7 @@ const TypingImage = styled.img`
   border-radius: 10px;
   box-shadow: -1px -1px 4px 4px rgba(0, 0, 0, 0.1);
   font-weight: 770;
-  max-width: 400px;
+  max-width: 500px;
   width: 95%;
   height: 100px;
   border-radius: 5px;
