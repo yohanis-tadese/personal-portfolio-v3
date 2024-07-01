@@ -30,7 +30,7 @@ const TypingSVG = () => {
     <Container>
       <StyledLink>
         <TypingImage
-          src="https://readme-typing-svg.herokuapp.com?lines=I'm passionate about data analysist;I'm+Full-Stack+Developer;I'm+Frontend+Developer;&size=21&center=true&width=450&height=50&speed=3000&pause=1000"
+          src="https://readme-typing-svg.herokuapp.com?lines=I'm passionate about data analysis;I'm+Full-Stack+Developer;I'm+Frontend+Developer;&size=21&center=true&width=450&height=50&speed=3000&pause=1000"
           alt="Typing SVG"
         />
       </StyledLink>
